@@ -1,7 +1,17 @@
 body{
     background-color:rgb(220, 226, 226);
-    margin: 30px;
+    margin: 40px;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+
+  
 }
+
+
+#spn{
+    display: flex;
+    justify-content: space-between;
+}
+
 #h2{
     display: flex;
     justify-content:space-around;
@@ -17,8 +27,9 @@ body{
 }
 
 img{
-    width: 280px;
-    float: left;
+    cursor: pointer;
+    width: 140px;
+    
 
 }
 #search{    
@@ -31,31 +42,41 @@ img{
 header{
 
     background-color: #009270;
-    width:1650px;
+    width:100%;
     height: 65px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
+}
+#buz{
+    cursor: pointer;
+    
+}
+#buz:hover{
+    background-color: #118368
 }
 span{
+    
     color: white;
     align-items: center;
     display: flex;
    font-size: 22px;
 }
+
 #btn1{
     cursor: pointer;
 
-    border: 2px solid white;
     font-size: 24px;
-    cursor: pointer;
+
     color: gray;
     border-radius: 50px;
     padding: 10px;
 }
 #spn{
+    
     justify-content: space-evenly;
 }
 #card1{
+    
     width: 400px;
     border-radius: 10px;
     height: 280px;
@@ -72,6 +93,7 @@ background-color: rgb(192, 190, 190);
 }
 #card2,#card3{
     width: 400px;
+    justify-content: space-between;
     border-radius: 10px;
     height: 280px;
 background-color: rgb(192, 190, 190);
@@ -84,8 +106,9 @@ background-color: rgb(192, 190, 190);
 }
 
 #span1{
+    
     color: rgb(80, 78, 78);
-    font-size: 17px;
+    font-size: 13px;
     margin: 15px;
     display: inline;
     padding: px;
@@ -93,12 +116,14 @@ background-color: rgb(192, 190, 190);
     
 }
 #btn{
-    cursor: pointer;
+    margin: 0;
+
     display: inline;
 }
     
 #btn2{
     cursor: pointer;
+    margin: 0;
     color: white;
     margin-top: 13px;
     background-color:#e90b37;
@@ -118,15 +143,6 @@ background-color: rgb(192, 190, 190);
     border: none;
     display: inline;
 }
-#btn4{
-    cursor: pointer;
-    background-color: #009270;
-    color: white;
-    border-radius: 50px; 
-    font-size: 
-
-}
-
 #game{
     display: inline-block;
 }
